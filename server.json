@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/transparencia-mcp",
+  "title": "Transparência (CGU)",
+  "description": "Brazilian Federal Transparency Portal: sanctions (CEIS, CNEP, CEPIM) and Politically Exposed Persons",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/transparencia-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_transparencia"
+    }
+  ]
+}
